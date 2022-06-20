@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Test Env</p>
-        <Button colorScheme="blue" onClick={() => signUp(identityData)}>
+        <Button colorScheme="blue" onClick={() => signUp()}>
           {" "}
           Sign up{" "}
         </Button>
